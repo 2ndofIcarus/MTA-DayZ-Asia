@@ -1,5 +1,4 @@
-0# MTA-DayZ-Asia Gamemode
-
+#MTA-DayZ-Asia Gamemode
 
 
 Installation Guide.
