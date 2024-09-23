@@ -4,8 +4,7 @@
 Installation Guide.
 
 Copy [Mode] and paste into resource folder.
-Copy ACL and MTAserver to deathmatch folder.
-And your Done!
+Copy ACL and MTAserver to deathmatch folder and your Done!
 
 Alternatively. 
 You can add this to your ACL if you wish to use your own ACL
