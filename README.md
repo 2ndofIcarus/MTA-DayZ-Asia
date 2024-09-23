@@ -1,5 +1,7 @@
 #MTA-DayZ-Asia Gamemode
 
+Hi guys! Releasing this gamemode based on Marwin & Rivor's, I have been working for this gamemode for a year and did some fixes and added new features. Since I no longer active in developing this gamemode, I hope to have it shared and developed further by other people :) Enjoy!
+
 
 Installation Guide.
 
