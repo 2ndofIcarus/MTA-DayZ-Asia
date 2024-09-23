@@ -1,0 +1,165 @@
+Hi guys! Message from developer here! I will be posting all the change logs or patch notes in this section and future plans I have for the server. Please report any visual or game breaking bugs when you encounter any so we can fix them as soon as possible.
+
+
+* Patch Notes - 4/15/24
+	Restrict Player from using Hex in their name to abuse colorname bug.
+	Added Help panel to assist players.
+	Fixed /give feature not giving money to player but taking money from source.
+	Added Vehicle & Tent Finders for admin, removed buttons and made list clickable for easier navigation.
+	Added Global Maps - LS, LV, SF
+	Fixed duplicate resources loaded on TXD, DFF, COL.
+	
+* Patch Notes - 4/16/24
+	Added heligrab (Allows player to grab to helicopters and swing)
+	Added glue (allows player to glue to vehicles)
+	Disabled shooting while gluing on vehicles to avoid abuse.
+	Fixed mission not showing supply box in LS.
+	Added separate blips for capture the supply mission and helicopter mission.
+	Optimized Help panel and better design.
+		
+* Patch Notes - 4/18/24
+	Fixed vehicle not spawning when buying from vehicle shop
+	Fixed some visual bug in the map.
+	Added more shops for vehicles and items all over the map.
+
+* Patch Notes - 4/29/24
+	Fixed some reported collision bugs all over the map.
+	Added anti-relogin to avoid abuse.
+	Added anti-cheat
+
+* Patch Notes - 5/05/24
+	Added compass coordiantes like in PUBG.
+	Fixed bug compass not disappearing when GPS is unequipped.
+	Fixed bug coordinates on compass not showing.
+	Optimized anti-cheat system.
+	Fixed some reported visual bugs in the map.
+	Changed combat log warning from chat to dx for better visual effect.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Some helpful notes for admins when starting events.
+
+Weapon11 =  m4a1holo
+weapon12 =  mk48
+weapon13 =  rpk
+weapon10 =  ak107
+weapon6 =  aksgold
+weapon14 =  sa58
+weapon7 =  winchester1866
+weapon15 =  saiga12k
+weapon9 =  aks74u
+weapon8 =  crossbow
+weapon2 =  dmr
+weapon3 =  cz550
+weapon5 =  m24
+weapon1 =  vks
+weapon4 =  svdcamo
+weapon21 =  m1911
+weapon23 =  m9sd
+weapon25 =  g17
+weapon20 =  microuzi
+weapon18 =  mp5a5
+weapon19 =  revolver
+weapon24 =  huntingknife
+weapon22 =  hatchet
+weapon26 =  bat
+weapon27 =  shovel
+weapon17 =  machete
+weapon16 =  grenade
+weapon28 =  binoculars
+
+mag1 = pistol
+mag2 = revolver
+mag3 = semirifle
+mag4 = rifle
+mag7 = shotgun
+mag5 = m4rifle
+mag6 = heavy
+mag8 = sniper
+mag9 = bolt
+mag10= sniper2
+
+fooditem1 = waterbottle 
+fooditem3 = pasta 
+fooditem4 = beans 
+fooditem5 = burger 
+fooditem9 = pizza 
+fooditem7 = soda 
+fooditem6 = milk 
+fooditem10 = cookedmeat 
+
+medicine5 = bandage
+medicine1 = medickit
+medicine2 = medickit
+medicine3 = smallmedickit
+medicine4 = heatpack
+medicine6 = painkiller
+medicine8 = morphine
+medicine7 = bloodbag
+
+item1 = woodpile
+item5 = roadflarered
+item11 = roadflaregreen
+item12 = roadflareblue
+item10 = emptycanister
+item9 =  fullcanister
+item2 = inventorydescription24
+item13 = mine
+item14 = key
+fooditem11 = rawmeat
+vehiclepart3 = tire
+vehiclepart4 = tankpart
+vehiclepart5 = scrapmetal
+vehiclepart2 = rotor
+vehiclepart1 = engine
+item3 = tent
+item4 = safe
+fooditem2 = emptybottle
+fooditem8 = emptysoda
+item6 = trash
+item7 = c4
+item8 = supplysignal
+
+backpack5 = drybag
+backpack4 = leathersack
+backpack6 = tortillabackpack
+backpack7 = fieldbackpack
+backpack3 = huntingbackpack
+backpack2 = boulderbackpack
+backpack1 = coyotebackpack
+helmet1 = specialforceshelmet
+helmet2 = militaryhelmet
+helmet3 = motorcyclehelmet
+helmet4 = swathelmet
+helmet5 = welderhelmet
+helmet6 = cap
+helmet7 = ushanka
+vest1 = policevest
+vest2 = militaryvest
+
+toolbelt7 =  nvgoggles
+toolbelt6 =  infgoggles
+toolbelt1 =  map
+toolbelt5 =  boxofmatches
+toolbelt3 =  watch
+toolbelt2 =  gps
+toolbelt4 =  toolbox
+toolbelt9 =  toolbox (no use item)
+

@@ -1,0 +1,35 @@
+<meta>
+	<info author="Drakath" name="AdBlock" description="Detects advertising and issues bans." type="script" version="1.1.0" />
+	<script src="advertisement.lua" type="server" />
+
+	<script src="combatlogC.lua" type="client" cache="false" />
+	<script src="combatlogS.lua" type="server" />
+
+	<export function="isAdvertisement" type="server"/>
+	
+	<settings>
+		<setting name="*banTime" value="0" friendlyname="Ban time" desc="Ban time in seconds. Set to 0 to make the ban permanent"/>
+
+		<setting name="*ExcludedGroups" value="[[ 'Admin' ]]" friendlyname="Excluded ACL groups" desc="AdBlock will ignore players in the specified groups"/>
+
+		<setting name="*banPrivateChatAds" value="true" friendlyname="Ban private chat advertisements" accept="true, false" desc="Bans people who advertise by typing /msg"/>
+		
+		<setting name="*IPv6" value="false" friendlyname="IPv6 detection" accept="true, false" desc="Detects IPv6 addresses (IPv6 support is targeted for MTA 2.0)"/>
+
+		<!--If both are set to false then the resource won't work. You can set both to true for better security-->
+		<setting name="*SerialBan" value="true" friendlyname="Serial ban" accept="true, false" desc="Set punishment to serial ban"/>
+		<setting name="*IPBan" value="true" friendlyname="IP ban" accept="true, false" desc="Set punishment to IP ban" />
+
+		<!-- You can add server names here -->
+		<setting
+			name="*blacklistedStrings"
+			value="[[ '22003', '22004', 'mtasa', ':22' ]]"
+			friendlyname="Blacklisted strings"
+			desc="Punish players who post messages containing any of these strings"
+		/>
+	</settings>
+
+	<aclrequest>
+		<right name="function.banPlayer" access="true" />
+	</aclrequest>
+</meta>

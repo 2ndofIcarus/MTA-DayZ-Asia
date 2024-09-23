@@ -1,0 +1,8 @@
+<meta>
+<info Author="SoSexy" name="Information Panel" description="A F1 Information panel for MTA servers" version="1.0" type="script" />
+	<script src="client.lua" type="client" cache = "false"/>
+	<file src="Rules.txt" cache = "false"/>
+	<file src="Commands.txt" cache = "false"/>
+	<file src="Admins.txt" cache = "false"/>
+	<file src="Information.txt" cache = "false"/>
+</meta>

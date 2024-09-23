@@ -1,0 +1,9 @@
+<meta>
+	<info author="Rikudo" type="script" name="Moneyhud" version="1.4.0"/>
+	<script src="showdolars.lua" type="client" cache="false"/>
+
+    <script src="zombiekill.lua" />
+    <script src="savemoney.lua" />
+	<script src="kill_player.lua" />
+    <script src="kill_zombie.lua" />
+</meta>

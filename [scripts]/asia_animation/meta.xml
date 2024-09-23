@@ -1,0 +1,7 @@
+<meta>
+	<info author="Marwin, L, -ffs-Sniper, kaasis, Tekken, Mischief" name="Ped Animations" type="script" version="1.0.2" />
+	<file src="ped.ifp" />
+	<script type="client" src="replace.lua" />
+	
+	
+</meta>

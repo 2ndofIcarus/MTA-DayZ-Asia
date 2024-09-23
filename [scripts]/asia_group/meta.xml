@@ -1,0 +1,7 @@
+<meta>
+	<info author="mischief" name="group" description="Group system for DayZ PH" />
+
+	<script src="team_c.lua" type="client" cache="false"/>
+    <script src="team_s.lua" type="server" />
+
+</meta>

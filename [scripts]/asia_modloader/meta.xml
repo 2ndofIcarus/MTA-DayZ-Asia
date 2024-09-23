@@ -1,0 +1,302 @@
+<meta>
+	<info author="MischiefPlayer2" name="Mod Loader" type="script" version="0.5"/>
+
+	<download_priority_group>-99999999999</download_priority_group>
+	<oop>true</oop>
+
+	<pDownloader>true</pDownloader>
+
+	<aclrequest>
+		<right name="general.ModifyOtherObjects" access="true"/>
+		<right name="function.kickPlayer"        access="true"/>
+	</aclrequest>
+
+	<script src="_SETTINGS.lua"	type="client" cache="false"/>
+	<script src="client.lua"	type="client" cache="false"/>
+	<script src="server.lua"	type="server"/>
+
+	<script src="downloader.lua" type="client" cache="false"/>
+
+	<file src="objects/items/parachute.dff" download="false" model="2903"/>
+	<file src="objects/items/parachute.txd" download="false" model="2903"/>
+	<file src="objects/items/landmine.dff" download="false" model="1510"/>
+	<file src="objects/items/landmine.txd" download="false" model="1510"/>
+
+	<file src="objects/items/safe.dff"/>
+	<file src="objects/items/safe_destroyed.dff"/>
+	<file src="objects/items/safe.txd"/>
+	<file src="objects/items/safe.col"/>
+
+	<file src="objects/items/339.txd" download="false" model="339"/>
+	<file src="objects/items/339.dff" download="false" model="339"/>
+	<file src="objects/items/367.txd" download="false" model="367"/>
+	<file src="objects/items/367.dff" download="false" model="367"/>
+	<file src="objects/items/983.txd" download="false" model="983"/>
+	<file src="objects/items/983.dff" download="false" model="983"/>
+	<file src="objects/items/1213.txd" download="false" model="1213"/>
+	<file src="objects/items/1213.dff" download="false" model="1213"/>
+	<file src="objects/items/1241.txd" download="false" model="1241"/>
+	<file src="objects/items/1241.dff" download="false" model="1241"/>
+	<file src="objects/items/1247.txd" download="false" model="1247"/>
+	<file src="objects/items/1247.dff" download="false" model="1247"/>
+	<file src="objects/items/1250.txd" download="false" model="1250"/>
+	<file src="objects/items/1250.dff" download="false" model="1250"/>
+	<file src="objects/items/1251.txd" download="false" model="1251"/>
+	<file src="objects/items/1251.dff" download="false" model="1251"/>
+	<file src="objects/items/1252.txd" download="false" model="1252"/>
+	<file src="objects/items/1252.dff" download="false" model="1252"/>
+	<file src="objects/items/1271.txd" download="false" model="1271"/>
+	<file src="objects/items/1271.dff" download="false" model="1271"/>
+	<file src="objects/items/1575.txd" download="false" model="1575"/>
+	<file src="objects/items/1575.dff" download="false" model="1575"/>
+	<file src="objects/items/1576.txd" download="false" model="1576"/>
+	<file src="objects/items/1576.dff" download="false" model="1576"/>
+	<file src="objects/items/1577.txd" download="false" model="1577"/>
+	<file src="objects/items/1577.dff" download="false" model="1577"/>
+	<file src="objects/items/1717.txd" download="false" model="1717"/>
+	<file src="objects/items/1717.dff" download="false" model="1717"/>
+	<file src="objects/items/1719.txd" download="false" model="1719"/>
+	<file src="objects/items/1719.dff" download="false" model="1719"/>
+	<file src="objects/items/1725.txd" download="false" model="1725"/>
+	<file src="objects/items/1725.dff" download="false" model="1725"/>
+	<file src="objects/items/1736.txd" download="false" model="1736"/>
+	<file src="objects/items/1736.dff" download="false" model="1736"/>
+	<file src="objects/items/1738.txd" download="false" model="1738"/>
+	<file src="objects/items/1738.dff" download="false" model="1738"/>
+	<file src="objects/items/1745.txd" download="false" model="1745"/>
+	<file src="objects/items/1745.dff" download="false" model="1745"/>
+	<file src="objects/items/1747.txd" download="false" model="1747"/>
+	<file src="objects/items/1747.dff" download="false" model="1747"/>
+	<file src="objects/items/1748.txd" download="false" model="1748"/>
+	<file src="objects/items/1748.dff" download="false" model="1748"/>
+	<file src="objects/items/1749.txd" download="false" model="1749"/>
+	<file src="objects/items/1749.dff" download="false" model="1749"/>
+	<file src="objects/items/1750.txd" download="false" model="1750"/>
+	<file src="objects/items/1750.dff" download="false" model="1750"/>
+	<file src="objects/items/1751.txd" download="false" model="1751"/>
+	<file src="objects/items/1751.dff" download="false" model="1751"/>
+	<file src="objects/items/2041.txd" download="false" model="2041"/>
+	<file src="objects/items/2041.dff" download="false" model="2041"/>
+	<file src="objects/items/2105.txd" download="false" model="2105"/>
+	<file src="objects/items/2105.dff" download="false" model="2105"/>
+	<file src="objects/items/2106.txd" download="false" model="2106"/>
+	<file src="objects/items/2106.dff" download="false" model="2106"/>
+	<file src="objects/items/2358.txd" download="false" model="2358"/>
+	<file src="objects/items/2358.dff" download="false" model="2358"/>
+	<file src="objects/items/2601.txd" download="false" model="2601"/>
+	<file src="objects/items/2601.dff" download="false" model="2601"/>
+	<file src="objects/items/2647.txd" download="false" model="2647"/>
+	<file src="objects/items/2647.dff" download="false" model="2647"/>
+	<file src="objects/items/2683.txd" download="false" model="2683"/>
+	<file src="objects/items/2683.dff" download="false" model="2683"/>
+	<file src="objects/items/2709.txd" download="false" model="2709"/>
+	<file src="objects/items/2709.dff" download="false" model="2709"/>
+	<file src="objects/items/2770.txd" download="false" model="2770"/>
+	<file src="objects/items/2770.dff" download="false" model="2770"/>
+	<file src="objects/items/2891.txd" download="false" model="2891"/>
+	<file src="objects/items/2891.dff" download="false" model="2891"/>
+	<file src="objects/items/3013.txd" download="false" model="3013"/>
+	<file src="objects/items/3013.dff" download="false" model="3013"/>
+	<file src="objects/items/3026.txd" download="false" model="3026"/>
+	<file src="objects/items/3026.dff" download="false" model="3026"/>
+	<file src="objects/items/929.txd" download="false" model="929"/>
+	<file src="objects/items/929.dff" download="false" model="929"/>
+	<file src="objects/items/933.txd" download="false" model="933"/>
+	<file src="objects/items/933.dff" download="false" model="933"/>
+	<file src="objects/items/1073.txd" download="false" model="1073"/>
+	<file src="objects/items/1073.dff" download="false" model="1073"/>
+	<file src="objects/items/1279.txd" download="false" model="1279"/>
+	<file src="objects/items/1279.dff" download="false" model="1279"/>
+	<file src="objects/items/1463.txd" download="false" model="1463"/>
+	<file src="objects/items/1463.dff" download="false" model="1463"/>
+	<file src="objects/items/1650.txd" download="false" model="1650"/>
+	<file src="objects/items/1650.dff" download="false" model="1650"/>
+	<file src="objects/items/2969.txd" download="false" model="2969"/>
+	<file src="objects/items/2969.dff" download="false" model="2969"/>
+		
+	<file src="objects/items/3243.txd" />
+	<file src="objects/items/3243.dff" />
+	<file src="objects/items/3243.col" />
+
+	<file src="objects/map/ang.col"/>
+	<file src="objects/map/ang.dff"/>
+	<file src="objects/map/ang.txd" />
+	<file src="objects/map/baguilok.col" />
+	<file src="objects/map/baguilok.dff" />
+	<file src="objects/map/baguilok.txd" />
+	<file src="objects/map/bigsandbags.col" />
+	<file src="objects/map/bigsandbags.dff" />
+	<file src="objects/map/bigsandbags.txd" />
+	<file src="objects/map/baraquement.col"/>
+	<file src="objects/map/baraquement.dff" />
+	<file src="objects/map/baraquement.txd" />
+	<file src="objects/map/controltower.col" />
+	<file src="objects/map/controltower.dff" />
+	<file src="objects/map/controltower.txd" />
+	<file src="objects/map/fire.col" />
+	<file src="objects/map/fire.dff" />
+	<file src="objects/map/fire.txd" />
+	<file src="objects/map/fires.col" />
+	<file src="objects/map/fires.dff" />
+	<file src="objects/map/fires.txd" />
+	<file src="objects/map/medictent.col" />
+	<file src="objects/map/medictent.dff" />
+	<file src="objects/map/medictent.txd" />
+	<file src="objects/map/tents.col" />
+	<file src="objects/map/tents.dff" />
+	<file src="objects/map/tents.txd" />
+	<file src="objects/map/tents2.col" />
+	<file src="objects/map/tents2.dff" />
+	<file src="objects/map/tents2.txd" />
+	<file src="objects/map/torre.col" />
+	<file src="objects/map/torre.dff" />
+	<file src="objects/map/torre.txd" />
+	<file src='objects/map/vaz2105.txd' />
+	<file src='objects/map/vaz2105.dff' />
+	<file src='objects/map/vaz2105.col' />
+	<file src='objects/map/carlom2.txd' />
+	<file src='objects/map/carlom2.dff' />
+	<file src='objects/map/carlom2.col' />
+	<file src='objects/map/carlom11.txd' />
+	<file src='objects/map/carlom11.dff' />
+	<file src='objects/map/carlom11.col' />
+
+	<file src="skins/admin.dff" download="false" model="290"/>
+	<file src="skins/admin.txd" download="false" model="290"/>
+	<file src="skins/12.dff" download="false" model="12"/>
+	<file src="skins/12.txd" download="false" model="12"/>
+	<file src="skins/13.dff" download="false" model="13"/>
+	<file src="skins/13.txd" download="false" model="13"/>
+	<file src="skins/14.dff" download="false" model="14"/>
+	<file src="skins/14.txd" download="false" model="14"/>
+	<file src="skins/15.dff" download="false" model="15"/>
+	<file src="skins/15.txd" download="false" model="15"/>
+	<file src="skins/22.dff" download="false" model="22"/>
+	<file src="skins/22.txd" download="false" model="22"/>
+	<file src="skins/27.dff" download="false" model="27"/>
+	<file src="skins/27.txd" download="false" model="27"/>
+	<file src="skins/29.dff" download="false" model="29"/>
+	<file src="skins/29.txd" download="false" model="29"/>
+	<file src="skins/56.dff" download="false" model="56"/>
+	<file src="skins/56.txd" download="false" model="56"/>
+	<file src="skins/66.dff" download="false" model="66"/>
+	<file src="skins/66.txd" download="false" model="66"/>
+	<file src="skins/67.dff" download="false" model="67"/>
+	<file src="skins/67.txd" download="false" model="67"/>
+	<file src="skins/68.dff" download="false" model="68"/>
+	<file src="skins/68.txd" download="false" model="68"/>
+	<file src="skins/69.dff" download="false" model="69"/>
+	<file src="skins/69.txd" download="false" model="69"/>
+	<file src="skins/70.dff" download="false" model="70"/>
+	<file src="skins/70.txd" download="false" model="70"/>
+	<file src="skins/92.dff" download="false" model="92"/>
+	<file src="skins/92.txd" download="false" model="92"/>	
+	<file src="skins/97.dff" download="false" model="97"/>
+	<file src="skins/97.txd" download="false" model="97"/>
+	<file src="skins/105.dff" download="false" model="105"/>
+	<file src="skins/105.txd" download="false" model="105"/>
+	<file src="skins/107.dff" download="false" model="107"/>
+	<file src="skins/107.txd" download="false" model="107"/>
+	<file src="skins/108.dff" download="false" model="108"/>
+	<file src="skins/108.txd" download="false" model="108"/>
+	<file src="skins/126.dff" download="false" model="126"/>
+	<file src="skins/126.txd" download="false" model="126"/>
+	<file src="skins/127.dff" download="false" model="127"/>
+	<file src="skins/127.txd" download="false" model="127"/>
+	<file src="skins/128.dff" download="false" model="128"/>
+	<file src="skins/128.txd" download="false" model="128"/>
+	<file src="skins/129.dff" download="false" model="129"/>
+	<file src="skins/129.txd" download="false" model="129"/>
+	<file src="skins/179.dff" download="false" model="179"/>
+	<file src="skins/179.txd" download="false" model="179"/>
+	<file src="skins/180.dff" download="false" model="180"/>
+	<file src="skins/180.txd" download="false" model="180"/>
+	<file src="skins/210.dff" download="false" model="210"/>
+	<file src="skins/210.txd" download="false" model="210"/>
+	<file src="skins/285.dff" download="false" model="285"/>
+	<file src="skins/285.txd" download="false" model="285"/>
+	<file src="skins/287.dff" download="false" model="287"/>
+	<file src="skins/287.txd" download="false" model="287"/>
+	<file src="skins/288.dff" download="false" model="288"/>
+	<file src="skins/288.txd" download="false" model="288"/>
+
+	<file src="vehicles/maverick.dff" download="false" model="487"/>
+	<file src="vehicles/maverick.txd" download="false" model="487"/>
+	<file src="vehicles/pmaverick.dff" download="false" model="497"/>
+	<file src="vehicles/pmaverick.txd" download="false" model="497"/>
+	<file src="vehicles/hmmwv.dff" download="false" model="470"/>
+	<file src="vehicles/hmmwv.txd" download="false" model="470"/>
+	<file src="vehicles/pickup.dff" download="false" model="422"/>
+	<file src="vehicles/pickup.txd" download="false" model="422"/>
+	<file src="vehicles/motorcycle.dff" download="false" model="468"/>
+	<file src="vehicles/motorcycle.txd" download="false" model="468"/>
+	<file src="vehicles/ural.dff" download="false" model="433"/>
+	<file src="vehicles/ural.txd" download="false" model="433"/>
+	<file src="vehicles/pbx.dff" download="false" model="473"/>
+	<file src="vehicles/pbx.txd" download="false" model="473"/>
+	<file src="vehicles/bike.dff" download="false" model="509"/>
+	<file src="vehicles/bike.txd" download="false" model="509"/>
+	<file src="vehicles/atv.dff" download="false" model="471"/>
+	<file src="vehicles/atv.txd" download="false" model="471"/>
+	<file src="vehicles/motorbike.dff" download="false" model="463"/>
+	<file src="vehicles/motorbike.txd" download="false" model="463"/>
+	<file src="vehicles/suv.dff" download="false" model="490"/>
+	<file src="vehicles/suv.txd" download="false" model="490"/>
+	<file src="vehicles/tractor.dff" download="false" model="531"/>
+	<file src="vehicles/tractor.txd" download="false" model="531"/>
+	<file src="vehicles/uaz.dff" download="false" model="579"/>
+	<file src="vehicles/uaz.txd" download="false" model="579"/>
+	<file src="vehicles/sedan.dff" download="false" model="421"/>
+	<file src="vehicles/sedan.txd" download="false" model="421"/>
+	<file src="vehicles/modernvan.dff" download="false" model="456"/>
+	<file src="vehicles/modernvan.txd" download="false" model="456"/>
+	<file src="vehicles/armoredveh.dff" download="false" model="528"/>
+	<file src="vehicles/armoredveh.txd" download="false" model="528"/>
+
+
+	<file src="weapons/333.dff" download="false" model="333"/>
+	<file src="weapons/333.txd" download="false" model="333"/>
+	<file src="weapons/348.dff" download="false" model="348"/>
+	<file src="weapons/348.txd" download="false" model="348"/>
+	<file src="weapons/349.dff" download="false" model="349"/>
+	<file src="weapons/349.txd" download="false" model="349"/>
+	<file src="weapons/351.dff" download="false" model="351"/>
+	<file src="weapons/351.txd" download="false" model="351"/>
+	<file src="weapons/357.dff" download="false" model="357"/>
+	<file src="weapons/357.txd" download="false" model="357"/>
+	<file src="weapons/1830.dff" download="false" model="1830"/>
+	<file src="weapons/1830.txd" download="false" model="1830"/>
+	<file src="weapons/1833.dff" download="false" model="1833"/>
+	<file src="weapons/1833.txd" download="false" model="1833"/>
+	<file src="weapons/1834.dff" download="false" model="1834"/>
+	<file src="weapons/1834.txd" download="false" model="1834"/>
+	<file src="weapons/1835.dff" download="false" model="1835"/>
+	<file src="weapons/1835.txd" download="false" model="1835"/>
+	<file src="weapons/1838.dff" download="false" model="1838"/>
+	<file src="weapons/1838.txd" download="false" model="1838"/>
+	<file src="weapons/1839.dff" download="false" model="1839"/>
+	<file src="weapons/1839.txd" download="false" model="1839"/>
+	<file src="weapons/1869.dff" download="false" model="1869"/>
+	<file src="weapons/1869.txd" download="false" model="1869"/>
+	<file src="weapons/1872.dff" download="false" model="1872"/>
+	<file src="weapons/1872.txd" download="false" model="1872"/>
+	<file src="weapons/1874.dff" download="false" model="1874"/>
+	<file src="weapons/1874.txd" download="false" model="1874"/>
+	<file src="weapons/1875.dff" download="false" model="1875"/>
+	<file src="weapons/1875.txd" download="false" model="1875"/>
+	<file src="weapons/1876.dff" download="false" model="1876"/>
+	<file src="weapons/1876.txd" download="false" model="1876"/>
+	<file src="weapons/1877.dff" download="false" model="1877"/>
+	<file src="weapons/1877.txd" download="false" model="1877"/>
+	<file src="weapons/1878.dff" download="false" model="1878"/>
+	<file src="weapons/1878.txd" download="false" model="1878"/>
+	<file src="weapons/1879.dff" download="false" model="1879"/>
+	<file src="weapons/1879.txd" download="false" model="1879"/>
+	<file src="weapons/1880.dff" download="false" model="1880"/>
+	<file src="weapons/1880.txd" download="false" model="1880"/>
+	<file src="weapons/1881.dff" download="false" model="1881"/>
+	<file src="weapons/1881.txd" download="false" model="1881"/>
+	<file src="weapons/1882.dff" download="false" model="1882"/>
+	<file src="weapons/1882.txd" download="false" model="1882"/>
+
+</meta>

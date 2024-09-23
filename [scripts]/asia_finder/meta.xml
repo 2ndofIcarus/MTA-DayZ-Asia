@@ -1,0 +1,9 @@
+<meta>
+	
+	<script src="client.lua" type="client" cache="false"/>
+	<script src="server.lua" type="server" />
+	
+	<settings>
+		<setting name="aclMinimumGroup" value="SuperModerator,Moderator,Admin" examples="SuperModerator,Moderator,Admin" desc="Minimum level in ACL to be able to give items (add commas to separate)"/>
+	</settings>
+</meta>

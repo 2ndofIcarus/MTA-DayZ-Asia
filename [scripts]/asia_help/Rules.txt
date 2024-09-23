@@ -1,0 +1,27 @@
+General Rules
+
+Violation of international data agreements, cybercrime laws, and spreading malicious software or fraud, applicable within the project and related resources.
+
+Distributing advertising materials on servers or websites is prohibited.
+
+Insulting players, administration, or engaging in racism/nazism is strictly forbidden.
+
+Flood, misinformation, and abusive behavior in game chat, comments, or project resources, including incitement to ethnic or racial hatred, are not tolerated.
+
+Using software modifications, cheats, or exploiting game bugs to gain an unfair advantage is against the rules. Publicly sharing bug information is a major violation.
+
+Collaborating with cheaters without reporting them may result in the same punishment.
+
+Disconnecting during fights (relog) without cause is prohibited, with the "ANTI-RELOG" notification serving as a warning.
+
+Items duplication (dup) is severely punished, and reporting major bugs is encouraged.
+
+Possessing illegally acquired items or engaging in suspicious trades may result in punishment.
+
+Selling in-game items for real money, or leasing game bases, is strictly prohibited.
+
+Violating trade deal conditions or scamming other players is not tolerated.
+
+Intentionally harming the project or evading bans is against the rules and may lead to permanent exclusion from the game.
+
+Type /report into local chat [T] and press Enter to open reports system. Select player and the reason. If it's a chat related violation then you will have to select a message from the list. For other reasons please provide as many details as you can (what actually happened).

@@ -1,0 +1,23 @@
+Main Commands
+- F1 - Help Panel
+- F2 - Settings Panel
+- F6 - Group Panel
+- T - Local Chat
+- Y - Team Chat
+- U - Global Chat
+- X - Glue to vehicles
+- Double Jump - Secure yourself to helicopters when in proximity.
+- Backspace - Release yourself from the helicopter.
+
+Animation Commands
+- L - Prone
+- , - Sit
+- . - Raise Hands
+- ; - Shout "Friendly"
+
+Console Commands
+- /give playerName Amount (gives player money) - Example /give MischiefPlayer2 900
+- /kill - Take suicide or Kill yourself.
+- /report - Report Bugs/Players/Suggestions.
+- /grab - Secure yourself to helicopters when in proximity.
+- /drop - Release yourself from the helicopter.
