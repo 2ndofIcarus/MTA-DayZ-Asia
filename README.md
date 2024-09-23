@@ -5,7 +5,7 @@ Hi guys! Releasing this gamemode based on Marwin & Rivor's, I have been working 
 
 Installation Guide.
 
-Copy [Mode] and paste into resource folder.
+Copy the entire folder and paste into resource folder.
 Copy ACL and MTAserver to deathmatch folder and your Done!
 
 Alternatively. 
